@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cardview_shadow_start_color"
+        android:elevation="1dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_toolbar"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/idListAct"
+            android:layout_width="match_parent"
+            android:layout_height="468dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:cacheColorHint="@color/cardview_shadow_start_color"
+            android:choiceMode="multipleChoice"
+            android:dividerHeight="1dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:background="@color/cardview_light_background"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btGuardar"
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                app:iconSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

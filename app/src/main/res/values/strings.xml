@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">iGym</string>
+    <string name="regActividad">Registrar nueva actividad</string>
+    <string name="action_mapa">Indica donde estamos</string>
+    <string name="informacion">Informacion sobre nosotros</string>
+    <string name="Myactivity">Lista de actividades</string>
+
+    <!-- activity_main.xml -->
+
+    <string name="texto_campoemail">Email</string>
+    <string name="texto_campocontra">Contraseña</string>
+    <string name="texto_boton_inicsesion">Iniciar Sesión</string>
+    <string name="tv_registrarse">¿No has iniciado sesión?</string>
+    <string name="texto_boton_registrarse">Registrarse</string>
+
+    <!-- add_act.xml -->
+
+    <string name="tv_nombre">Nombre</string>
+    <string name="tv_descripcion">Descripción</string>
+    <string name="tv_horarios">Horarios</string>
+    <string name="tv_tarifa">Tarifa</string>
+    <string name="texto_botonadd">Añadir</string>
+
+    <!-- inicio.xml -->
+
+    <string name="tv_listaActividades">Mis Actividades</string>
+    <string name="bt_Horarios">Horarios</string>
+    <string name="bt_Tarifas">Tarifas</string>
+    <string name="bt_CerrarSesion">Cerrar sesión</string>
+    <string name="bt_Actividades">Todas las actividades</string>
+
+
+    <!-- misactividades.xml -->
+
+    <string name="texto_boton_actividades">Seleccionar actividades</string>
+
+    <!-- select_act.xml -->
+
+    <string name="texto_boton_guardar">Guardar</string>
+
+    <!-- edit act -->
+    <string name="txtEditar">Editar</string>
+
+</resources>

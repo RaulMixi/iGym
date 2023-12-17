@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482423089152",
+    "project_id": "igym-8e2d7",
+    "storage_bucket": "igym-8e2d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482423089152:android:da8aec690e896122f790e5",
+        "android_client_info": {
+          "package_name": "com.example.igym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCup3bXkARyX2HLSsAJ09-TtH5ECRmEAk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
